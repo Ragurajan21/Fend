@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/bgm"
+    android:layout_height="match_parent"
+    tools:context="com.example.rajan.ps03.NumberActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add and Edit Trustee"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textColor="#F3F7F0"
+        />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/nos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:backgroundTint="#F3F7F0"
+            android:hint="Enter number here"
+            android:inputType="number"
+            android:textColor="#F3F7F0"
+            android:textColorHint="#F3F7F0" />
+
+        <Button
+            android:id="@+id/contacts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:text="Contacts" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="#4DAF15"
+        android:text="Add Number" />
+
+
+    <Button
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="#4DAF15"
+        android:text="View " />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Note:To strat sending location updates go back and then sahake the phone "
+        android:textColor="@color/colorAccent"
+        android:textSize="15dp"
+        />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="* And only one Trustee can be added"
+        android:textColor="@color/colorAccent"
+        android:textSize="15dp"
+        />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#4DAF15"
+        android:text="Go Back"
+        android:layout_gravity="center"
+
+
+
+        />
+
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:text="Recommended:Go through the About and Help Tab in settings before Using the Application"
+        android:textColor="@color/colorAccent"
+        android:textSize="15dp"
+        />
+
+
+
+</LinearLayout>
+
+
+
+

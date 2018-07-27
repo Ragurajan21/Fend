@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgm"
+    tools:context="com.example.rajan.ps03.SettingsActivity">
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/b2"
+        android:layout_alignStart="@+id/b2"
+        android:layout_marginBottom="69dp"
+        android:background="#4DAF15"
+        android:text="About" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/b3"
+        android:layout_alignStart="@+id/b3"
+        android:layout_marginBottom="72dp"
+        android:background="#4DAF15"
+        android:text="Help" />
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/b4"
+        android:layout_alignStart="@+id/b4"
+        android:layout_marginBottom="58dp"
+        android:background="#4DAF15"
+        android:text="Credits" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="67dp"
+        android:background="#4DAF15"
+        android:text="Time"
+        android:id="@+id/b4"/>
+
+</RelativeLayout>
